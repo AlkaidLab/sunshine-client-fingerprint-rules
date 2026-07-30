@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "revision": 1,
+  "issued_at": 1785432971,
+  "expires_at": 1793208971,
+  "rules": [
+    {
+      "id": "axixi-moonlight-android-2026-07",
+      "enabled": true,
+      "confidence": "high",
+      "action": "warn",
+      "message_key": "suspected_unknown_infringing_client",
+      "all": [
+        {
+          "query": "virtualDisplay",
+          "op": "present"
+        },
+        {
+          "query": "virtualDisplay",
+          "op": "not_equal",
+          "value": "0"
+        },
+        {
+          "query": "virtualDisplayMode",
+          "op": "present"
+        },
+        {
+          "query": "devicenickname",
+          "op": "present"
+        },
+        {
+          "query": "ppi",
+          "op": "present"
+        },
+        {
+          "query": "screen_resolution",
+          "op": "present"
+        },
+        {
+          "query": "timeToTerminateApp",
+          "op": "equals",
+          "value": "-1"
+        },
+        {
+          "query": "UIScale",
+          "op": "equals",
+          "value": "200"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+*.key
+*.sig
+*.tmp
+private.pem
