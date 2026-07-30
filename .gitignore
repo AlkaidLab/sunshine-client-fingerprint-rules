@@ -2,3 +2,4 @@
 *.sig
 *.tmp
 private.pem
+__pycache__/
