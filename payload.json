@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "revision": 1,
-  "issued_at": 1785432971,
-  "expires_at": 1793208971,
+  "revision": 2,
+  "issued_at": 1785433005,
+  "expires_at": 1793209005,
   "rules": [
     {
       "id": "axixi-moonlight-android-2026-07",
